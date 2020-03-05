@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    /*border: solid 1px #000000;*/
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkcyan;
+    font-size: 18px;
+}
+
+/*HEADER*/
+header{
+    background-image: url(../img/bradcam.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    color: white;
+}
+/*SI ES ID se usa #*/
+#main-container header #menu{
+    padding: 50px 0;
+}
+
+header #menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+header #menu ul li{
+    display: inline-block;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+header #menu ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 0 30px;
+}
+
+header #menu ul li a:hover{
+    color: wheat;
+    text-decoration: underline;
+}
+
+header #menu ul #logo{
+    margin-right: 50%;
+    margin-left: 100px;
+} 
+
+/*MAIN*/
+#main-container header main{
+    margin: 0 auto;
+    width: 1400px;
+}
+
+#main-container header main div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/*SI ES class se usa . */
+
+#main-container header main .text h1{
+    font-size: 80px;
+}
+
+#main-container header main .text p{
+    font-size: 32px;
+    padding: 20px 0;
+}
+
+button{
+    background-color: darkcyan;
+    border: 0;
+    border-radius: 18px;
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 20px 25px;
+    margin: 40px 0;
+}
+
+button:hover{
+    background-color: #14929b;
+}
+
+#main-container header main .image{
+    text-align: right;
+    width: 650px;
+}
+
+/***************************************/
+.layout{
+    width: 1280px;
+    margin: 250px auto;
+}
+
+.layout div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.layout h3{
+    font-size: 48px;
+    padding: 25px;
+}
+
+.layout p{
+    padding: 25px 0;
+    line-height: 32px;
+    font-size: 28px;
+}
+
+.layout-left .text{
+    width: 500px;
+}
+
+.layout-left .image{
+    width: 650px;
+    text-align: right;
+}
+
+.layout-right .text{
+    width: 500px;
+}
+
+.layout-right .image{
+    width: 650px;
+    text-align: center;
+}
+
+/************************************************/
+footer{
+    background-color: black;
+    padding: 150px 20px;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+}
